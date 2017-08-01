@@ -15,10 +15,11 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_xml', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'qformat_otxml', language 'en', branch 'MOODLE_33_STABLE'
  *
  * @package    qformat_otxml
  * @copyright  1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @copyright  2017 onwards CTDL, National University of Radio-Electronics  {@link http://ctdl.nure.ua}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
