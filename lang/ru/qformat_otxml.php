@@ -16,16 +16,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_xml', language 'ru', branch 'MOODLE_33_STABLE'
+ * Strings for component 'qformat_otxml', language 'ru', branch 'MOODLE_33_STABLE'
  *
  * @package   qformat_xml
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @copyright 2017 onwards CTDL, Nure.ua  {@link http://ctdl.nure.ua}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 $string['invalidxml'] = 'Неверный файл XML - ожидалась строка (использовать CDATA?)';
-$string['pluginname'] = 'Формат OpenTest XML';
-$string['pluginname_help'] = 'Это специфический формат Moodle для импорта и экспорта вопросов.';
+$string['pluginname'] = 'Формат OpenTest XML (Тестовый режим)';
+$string['pluginname_help'] = 'Это специфический формат OpenTest XML 2.0 для импорта и экспорта вопросов. Плагин построен на основе базового плагина импорта/экпорта Moodle XML. Плагин работает в тестовом режиме, по вопросам выявленных ошибок обращайтесь ctdl-staff@nure.ua';
 $string['truefalseimporterror'] = '<b>Предупреждение</b>: Вопрос Верно/Неверно «{$a->questiontext}» не мог быть импортирован должным образом. Непонятно, что является правильным ответом: Верно или Неверно. Вопрос был импортирован с предположением, что правильным ответом является «{$a->answer}». Если это не так, отредактируйте вопрос.';
 $string['unsupportedexport'] = 'Тип вопроса {$a} не поддерживается при экспорте XML';
 $string['xmlimportnoname'] = 'В XML-файле отсутствует название вопроса';
