@@ -25,7 +25,7 @@
 
 $string['invalidxml'] = 'Invalid XML file - string expected (use CDATA?)';
 $string['pluginname'] = 'OpenTest XML format (Test-mode)';
-$string['pluginname_help'] = 'This is a OpenTest-specific format for importing and exporting questions. The plugin is build on the basis of the standard Moodle XML format plugin. Please contact <a href="ctdl-staff@nure.ua">ctdl-staff@nure.ua</a> with concerns or bugs.';
+$string['pluginname_help'] = 'This is a OpenTest-specific format for importing and exporting questions. The plugin is build on the basis of the standard Moodle XML format plugin. Please contact <a href="mailto:ctdl-staff@nure.ua">ctdl-staff@nure.ua</a> with concerns or bugs.';
 $string['pluginname_link'] = 'qformat/otxml';
 $string['truefalseimporterror'] = '<b>Warning</b>: The true/false question \'{$a->questiontext}\' could not be imported properly. It was not clear whether the correct answer is true or false. The question has been imported assuming that the answer is \'{$a->answer}\'. If this is not correct, you will need to edit the question.';
 $string['unsupportedexport'] = 'Question type {$a} is not supported by XML export';
